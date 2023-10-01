@@ -282,7 +282,7 @@ h2{
 
 
 .hero-bg .btn.blue {
-	background-color: #00416C;
+	background-color: #fff;
 	-webkit-mask-image: url(../images/btn-mask2.svg);
 	mask-image: url(../images/btn-mask2.svg);
 }
