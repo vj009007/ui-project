@@ -14,7 +14,3 @@ This is a simple Bootstrap 5 project that demonstrates the use of jQuery for cre
    git clone https://github.com/vj009007/ui-project.git
 
 
-## Acknowledgments
-### Bootstrap
-### jQuery
-### AOS - Animate On Scroll
