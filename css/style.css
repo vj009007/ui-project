@@ -262,12 +262,11 @@ h2{
 
 .hero-bg .btn {
 	background-color: #E63E30;
-	padding: 17px 25px 13px 25px;
+	-webkit-mask-image: url(../images/btn-mask.svg);
+	mask-image: url(../images/btn-mask.svg);
+	padding: 17px 43px 13px 43px;
 	display: inline-block;
-	margin: auto;
-	border: #E63E30 solid 2px;
 	position: relative;
-	margin: 10px 30px;
 	z-index: 2;
 	color: var(--white);
 	font-size: 15px;
@@ -275,137 +274,19 @@ h2{
 	line-height: 23px;
 	font-family: 'gotham';
 	letter-spacing: 0px;
+	mask-repeat: no-repeat;
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-size: contain;
+	mask-size: contain;
 }
 
-.hero-bg .btn div{
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	left: 0px;
-	bottom: 0px;
-}
-
-.hero-bg .btn div span{
-	position: absolute;
-	top: -2px;
-	right: 50%;
-	left: 50%;
-	bottom: -2px;
-	background-color: #FED103;
-	transition: all 0.2s ease;
-	z-index: 2;
-}
-
-.hero-bg .btn.blue div span{
-	background-color: rgb(255, 255, 255);
-	z-index: 2;
-}
-
-.hero-bg .btn:hover div span{
-	right: 0px;
-	left: 0px;
-}
-
-.hero-bg .btn > span{
-	position: relative;
-	z-index: 5;
-}
-
-.hero-bg .btn:hover > span{
-	color: #02205C;
-}
-
-.hero-bg .btn.blue:hover > span{
-	color: #E63E30;
-}
-
-.hero-bg .btn div::after {
-	content: '';
-	height: 0px;
-	width: 0px;
-	position: absolute;
-	background-color: var(--white);
-	top: 23px;
-	right: 50%;
-	transform: rotate(135deg);
-	z-index: 1;
-	transition: all 0.2s ease;
-}
-
-.hero-bg .btn div::before {
-	content: '';
-	height: 0px;
-    width: 0px;
-    top: 23px;
-    left: 50%;
-	position: absolute;
-	background-color: var(--white);
-	transform: rotate(-45deg);
-	z-index: -1;
-	transition: all 0.2s ease;
-}
-
-.hero-bg .btn:hover div::after {
-	height: 40px;
-	width: 39px;
-	right: -20px;
-	top: 6px;
-}
-
-.hero-bg .btn:hover div::before {
-	height: 40px;
-    width: 39px;
-	top: 6px;
-	left: -20px;
-}
-
-.hero-bg .btn div::before,
-.hero-bg .btn div::after {
-	background-color: #FED103;
-	z-index: 1;
-}
-
-.hero-bg .btn.blue div::before,
-.hero-bg .btn.blue div::after {
-	background-color: var(--white);
-	z-index: 1;
-}
-
-.hero-bg .btn::after {
-	content: '';
-	height: 40px;
-	width: 39px;
-	position: absolute;
-	background-color: #E63E30;
-	top: 6px;
-	right: -20px;
-	transform: rotate(135deg);
-	z-index: -1;
-}
-
-.hero-bg .btn::before {
-	content: '';
-	height: 40px;
-    width: 39px;
-    top: 6px;
-    left: -20px;
-	position: absolute;
-	background-color: #E63E30;
-	transform: rotate(-45deg);
-	z-index: -1;
-}
 
 .hero-bg .btn.blue {
 	background-color: #00416C;
-	border: 2px solid rgb(255, 255, 255);
+	-webkit-mask-image: url(../images/btn-mask2.svg);
+	mask-image: url(../images/btn-mask2.svg);
 }
 
-.hero-bg .btn.blue::before,
-.hero-bg .btn.blue::after {
-	background-color: #00416C;
-	border-top: 2px solid rgb(255, 255, 255);
-	border-left: 2px solid rgb(255, 255, 255);
-}
 
 .hero-bottom {
 	margin: 140px 0px 30px 0px;
