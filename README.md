@@ -18,4 +18,4 @@ Before you get started, make sure you have the following tools installed:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/bootstrap-carousel-aos.git
+   git clone https://github.com/vj009007/ui-project.git
