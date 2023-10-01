@@ -15,6 +15,6 @@ This is a simple Bootstrap 5 project that demonstrates the use of jQuery for cre
 
 
 ## Acknowledgments
-# Bootstrap
-# jQuery
-# AOS - Animate On Scroll
+### Bootstrap
+### jQuery
+### AOS - Animate On Scroll
