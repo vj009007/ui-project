@@ -6,13 +6,6 @@ This is a simple Bootstrap 5 project that demonstrates the use of jQuery for cre
 
 ## Getting Started
 
-### Prerequisites
-
-Before you get started, make sure you have the following tools installed:
-
-- [Node.js](https://nodejs.org/) (for package management)
-- [npm](https://www.npmjs.com/) (comes with Node.js)
-
 ### Installation
 
 1. Clone the repository to your local machine:
