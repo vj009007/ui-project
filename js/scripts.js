@@ -1,5 +1,5 @@
 (function($) {
-    
+    AOS.init();
     // Slider
     $(document).ready(function() {
            $('.owl-carousel').owlCarousel({
@@ -43,6 +43,6 @@
      });
 
 
-     AOS.init();
+
   
 })(jQuery);
