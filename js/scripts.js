@@ -30,6 +30,7 @@
               }
             }         
          })
+         AOS.init();
     })
 
     // Sticky Header
