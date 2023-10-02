@@ -33,6 +33,7 @@ a:not([href]):not([class]) {
 
 html {
 	-webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -202,9 +203,7 @@ a.btn-default:hover:before {
 	box-shadow: none;
 	outline: none;
 }
-.section{
-  overflow: hidden;
-}
+
 .header-right {
 	display: flex;
 	justify-content: end;
@@ -240,7 +239,9 @@ a.btn-default:hover:before {
 }
 
 /* Hero Section */
-
+.section{
+  overflow: hidden !important;
+}
 .hero {
 	background-image: url("../images/hero-bg.png");
 	background-repeat: no-repeat;
