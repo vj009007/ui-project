@@ -163,7 +163,9 @@ a.btn-default:hover:before {
   box-shadow: none;
   outline: none;
 }
-
+.hamburger img{
+  width: 28px;
+}
 .offcanvas-body {
 	padding: 20px;
 	overflow-y: auto;
