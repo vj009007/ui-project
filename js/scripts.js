@@ -1,5 +1,10 @@
 (function($) {
-    AOS.init();
+    AOS.init({
+        disable: function() {
+          var maxWidth = 800;
+          return window.innerWidth < maxWidth;
+        }
+      });
     // Slider
     $(document).ready(function() {
            $('.owl-carousel').owlCarousel({
