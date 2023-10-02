@@ -202,7 +202,9 @@ a.btn-default:hover:before {
 	box-shadow: none;
 	outline: none;
 }
-
+.section{
+  overflow: hidden;
+}
 .header-right {
 	display: flex;
 	justify-content: end;
