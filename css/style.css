@@ -33,7 +33,6 @@ a:not([href]):not([class]) {
 
 html {
 	-webkit-text-size-adjust: 100%;
-  overflow-x: hidden !important;
 }
 
 body {
@@ -44,6 +43,7 @@ body {
 	line-height: normal;
 	text-rendering: optimizeSpeed;
 	color: var(--black);
+  overflow-x: hidden !important;
 	-webkit-font-smoothing: subpixel-antialiased;
 }
 
